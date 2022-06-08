@@ -5,6 +5,7 @@ Project Title: Trends in Antibiotic Prescribing in COVID-19 & Upper Respiratory 
 Team members: Ashmita Sawhney, Jeein Kim, Shreya Kini
 
 
+
 File Descriptions: 
 1. URI_patients.sql: SQL script in order to extract the required sub-cohort (URI patients) from the raw data file
 2. URI_outpatients.sql: SQL script in order to extract the required sub-cohort from URI patients, and filter it for outpatients only
