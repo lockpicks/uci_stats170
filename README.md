@@ -1,12 +1,12 @@
-STATS 170 2022: UC Irvine Capstone Project in Data Science 
+## STATS 170 2022: UC Irvine Capstone Project in Data Science 
 
-Project Title: Trends in Antibiotic Prescribing in COVID-19 & Upper Respiratory Infection Patients Over Time
+## Project Title: Trends in Antibiotic Prescribing in COVID-19 & Upper Respiratory Infection Patients Over Time
 
-Team members: Ashmita Sawhney, Jeein Kim, Shreya Kini
+### Team members: Ashmita Sawhney, Jeein Kim, Shreya Kini
 
 
 
-File Descriptions: 
+## File Descriptions: 
 1. URI_patients.sql: SQL script in order to extract the required sub-cohort (URI patients) from the raw data file
 2. URI_outpatients.sql: SQL script in order to extract the required sub-cohort from URI patients, and filter it for outpatients only
 3. Antibiotics.sql: SQL script that stores a culmination of prescription of 15 antibiotics to all URI & COVID outpatients 
@@ -19,7 +19,7 @@ File Descriptions:
 10. visualizations.r: R code containing relevant visualizations for data analysis
 
 
-How to run our project:
+## How to run our project:
 
 Note: Since we used restricted data in our project that cannot be shared, we did not reproduce SQL code since there were >15 tables and billions of rows that were taken into account. All SQL script was run against N3C database that has strict rules on downloading data and/or duplicating tables from their database. As a result, we created a sample of the final dataset that was extracted after applying all exclusion criteria, and generated examples of the types of analyses and predictions our model can make. To run the R code:
 
