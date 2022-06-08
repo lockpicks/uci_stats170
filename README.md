@@ -1,6 +1,7 @@
 STATS 170 2022: UC Irvine Capstone Project in Data Science 
 
 Project Title: Trends in Antibiotic Prescribing in COVID-19 & Upper Respiratory Infection Patients Over Time
+
 Team members: Ashmita Sawhney, Jeein Kim, Shreya Kini
 
 
