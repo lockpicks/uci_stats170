@@ -1,0 +1,301 @@
+person_id,visit_start_date,uri_start_date,drug_exposure_start_date,concept_name,abx_status,covid_measurement_date,covid_status,covid_active,Cancer,Chronic_Kidney_Disease,Chronic_Liver_Disease,Asthma,Cystic_Fibrosis,Dementia,Alzheimer,Disability,HIV_Infection,Overweight,Pregnancy,Smoking,Solid_Organ,Stroke,Heart_Conditions,Hypertension,Age,Gender,Race,Ethnicity,days_since_pandemic,prev_uri_visits
+1,2019-02-12,2019-02-12,null,null,No,null,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,57,FEMALE,White,Not Hispanic or Latino,-393,0
+2,2021-09-27,2021-09-27,null,null,No,null,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,Yes,No,No,No,19,FEMALE,White,Not Hispanic or Latino,565,0
+3,2021-02-08,2021-02-08,null,null,No,null,No,No,No,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,24,FEMALE,White,Not Hispanic or Latino,334,0
+4,2020-04-04,2020-04-04,null,null,No,null,No,No,No,No,Yes,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,44,FEMALE,White,Not Hispanic or Latino,24,0
+5,2021-11-20,2021-11-20,null,null,No,2021-11-21,Yes,Yes,Yes,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,27,FEMALE,Black or African American,Not Hispanic or Latino,619,0
+6,2020-03-09,2020-03-09,null,null,No,2020-09-13,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,33,MALE,White,Not Hispanic or Latino,-2,0
+7,2019-10-01,2019-10-01,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,Black or African American,Not Hispanic or Latino,-162,0
+7,2020-07-08,2020-07-08,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,Black or African American,Not Hispanic or Latino,119,1
+7,2021-03-17,2021-03-17,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,Black or African American,Not Hispanic or Latino,371,2
+7,2021-04-27,2021-04-27,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,Black or African American,Not Hispanic or Latino,412,3
+7,2021-06-10,2021-06-10,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,Black or African American,Not Hispanic or Latino,456,4
+7,2021-10-29,2021-10-29,2021-10-29,erythromycin 0.005 MG/MG Ophthalmic Ointment,Yes,null,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,3,FEMALE,Black or African American,Not Hispanic or Latino,597,5
+8,2020-03-13,2020-03-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,39,FEMALE,White,Hispanic or Latino,2,0
+9,2022-03-11,2022-03-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,30,FEMALE,White,Not Hispanic or Latino,730,0
+10,2019-10-11,2019-10-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,11,MALE,White,Not Hispanic or Latino,-152,0
+11,2020-12-24,2020-12-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,24,MALE,White,Not Hispanic or Latino,288,0
+12,2019-12-15,2019-12-15,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,17,FEMALE,Asian,Not Hispanic or Latino,-87,0
+13,2021-03-22,2021-03-22,2021-03-22,amoxicillin 875 MG Oral Tablet,Yes,null,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,57,FEMALE,White,Not Hispanic or Latino,376,0
+13,2021-12-30,2021-12-30,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,57,FEMALE,White,Not Hispanic or Latino,659,1
+14,2021-10-01,2022-03-15,null,null,No,null,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,3,FEMALE,White,Hispanic or Latino,569,0
+15,2020-09-03,2020-09-03,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,Black or African American,null,176,0
+15,2021-07-03,2021-07-03,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,Black or African American,null,479,1
+15,2022-03-11,2022-03-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,Black or African American,null,730,2
+16,2021-08-09,2021-08-09,2021-08-09,azithromycin 250 MG Oral Tablet,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,48,MALE,No matching concept,Hispanic or Latino,516,0
+17,2020-03-13,2020-03-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,65,FEMALE,White,Not Hispanic or Latino,2,0
+18,2019-12-17,2019-12-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,54,FEMALE,White,Not Hispanic or Latino,-85,0
+18,2020-05-31,2020-05-31,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,54,FEMALE,White,Not Hispanic or Latino,81,1
+18,2022-03-20,2022-03-20,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,54,FEMALE,White,Not Hispanic or Latino,739,2
+19,2020-05-29,2020-05-29,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,25,FEMALE,White,Not Hispanic or Latino,79,0
+20,2022-01-24,2022-01-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,39,FEMALE,Black or African American,Not Hispanic or Latino,684,0
+21,2021-12-24,2021-08-05,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,13,MALE,Other,Not Hispanic or Latino,653,0
+22,2018-05-30,2018-05-30,2018-05-30,amoxicillin 875 MG Oral Tablet,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,15,MALE,White,Hispanic or Latino,-651,0
+22,2019-08-11,2019-08-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,15,MALE,White,Hispanic or Latino,-213,1
+23,2021-10-25,2021-10-25,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,1,MALE,White,Hispanic or Latino,593,0
+24,2021-07-26,2021-07-25,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,FEMALE,Asian,Not Hispanic or Latino,502,0
+24,2021-09-10,2021-09-09,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,FEMALE,Asian,Not Hispanic or Latino,548,1
+24,2021-11-17,2021-11-16,2021-11-16,amoxicillin,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,FEMALE,Asian,Not Hispanic or Latino,616,2
+25,2020-08-11,2020-08-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,45,FEMALE,White,Not Hispanic or Latino,153,0
+26,2018-07-01,2018-07-01,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,Yes,75,FEMALE,White,Hispanic or Latino,-619,0
+27,2021-05-11,2021-05-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,31,FEMALE,Black or African American,Not Hispanic or Latino,426,0
+28,2020-01-25,2020-01-24,null,null,No,2020-01-25,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,null,FEMALE,White,Not Hispanic or Latino,-46,0
+29,2020-02-13,2020-02-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,45,MALE,White,Not Hispanic or Latino,-27,0
+30,2019-01-20,2019-01-20,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,36,FEMALE,White,Not Hispanic or Latino,-416,0
+30,2019-08-18,2019-08-18,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,36,FEMALE,White,Not Hispanic or Latino,-206,1
+30,2020-05-25,2020-05-25,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,36,FEMALE,White,Not Hispanic or Latino,75,2
+31,2021-12-15,2021-12-14,null,null,No,2021-12-16,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,16,MALE,White,Not Hispanic or Latino,644,0
+32,2019-09-07,2019-09-07,null,null,No,null,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,61,MALE,White,Hispanic or Latino,-186,0
+3332,2020-03-14,2020-03-14,null,null,No,null,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,61,MALE,White,Hispanic or Latino,3,1
+33,2021-10-08,2021-10-08,2021-10-07,doxycycline monohydrate 100 MG Oral Tablet,Yes,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,43,FEMALE,No matching concept,Not Hispanic or Latino,576,0
+34,2019-01-22,2019-01-22,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,62,FEMALE,White,Not Hispanic or Latino,-414,0
+35,2020-07-07,2020-07-07,null,null,No,2022-06-06,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,26,FEMALE,White,Not Hispanic or Latino,118,0
+36,2020-06-06,2020-06-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,61,FEMALE,White,Not Hispanic or Latino,87,0
+37,2020-07-24,2020-07-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,47,FEMALE,Black or African American,Not Hispanic or Latino,135,0
+38,2021-01-02,2021-01-02,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,6,FEMALE,Black or African American,Not Hispanic or Latino,297,0
+39,2020-10-09,2020-10-08,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,46,MALE,White,Not Hispanic or Latino,212,0
+40,2019-01-16,2019-01-16,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,FEMALE,White,Not Hispanic or Latino,-420,0
+40,2020-04-18,2020-04-18,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,FEMALE,White,Not Hispanic or Latino,38,1
+40,2021-11-19,2021-11-19,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,FEMALE,White,Not Hispanic or Latino,618,2
+41,2019-10-12,2019-10-12,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,9,MALE,No matching concept,Not Hispanic or Latino,-151,0
+41,2022-01-28,2022-01-28,null,null,No,2020-10-31,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,45,FEMALE,White,Not Hispanic or Latino,688,0
+42,2021-09-27,2021-12-05,null,null,No,2021-12-05,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,4,MALE,White,Hispanic or Latino,565,0
+43,2019-11-08,2019-11-08,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,35,MALE,White,Not Hispanic or Latino,-124,0
+43,2019-12-26,2019-12-26,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,35,MALE,White,Not Hispanic or Latino,-76,1
+44,2019-07-25,2019-07-25,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,30,MALE,White,Not Hispanic or Latino,-230,0
+45,2018-12-26,2019-01-22,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,31,FEMALE,White,Not Hispanic or Latino,-441,0
+46,2020-04-27,2020-04-27,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,35,MALE,White,Not Hispanic or Latino,47,0
+46,2020-07-13,2020-07-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,35,MALE,White,Not Hispanic or Latino,124,1
+46,2020-09-28,2020-09-28,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,35,MALE,White,Not Hispanic or Latino,201,2
+46,2021-09-14,2021-09-14,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,35,MALE,White,Not Hispanic or Latino,552,3
+47,2021-12-15,2021-12-15,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,52,MALE,White,Not Hispanic or Latino,644,0
+47,2018-03-09,2018-03-08,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,48,FEMALE,White,Not Hispanic or Latino,-733,0
+47,2018-04-18,2018-04-17,2018-04-19,amoxicillin 500 MG Oral Capsule,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,48,FEMALE,White,Not Hispanic or Latino,-693,1
+47,2018-09-18,2018-09-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,48,FEMALE,White,Not Hispanic or Latino,-540,2
+48,2020-03-29,2020-03-29,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,Yes,No,Yes,No,No,No,Yes,35,FEMALE,White,Not Hispanic or Latino,18,0
+49,2021-09-01,2021-09-01,2021-09-01,azithromycin 250 MG Oral Tablet,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,20,FEMALE,White,Not Hispanic or Latino,539,0
+50,2018-06-16,2018-06-16,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,No matching concept,Not Hispanic or Latino,-634,0
+50,2019-03-30,2019-03-30,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,No matching concept,Not Hispanic or Latino,-347,1
+50,2019-10-14,2019-10-14,2019-10-14,polymyxin B 10000 UNT/ML / trimethoprim 1 MG/ML Ophthalmic Solution [Polytrim],Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,No matching concept,Not Hispanic or Latino,-149,2
+51,2020-01-29,2020-01-29,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,56,FEMALE,White,Hispanic or Latino,-42,0
+52,2019-05-21,2019-05-20,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,20,MALE,White,Not Hispanic or Latino,-295,0
+52,2020-08-06,2020-08-05,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,20,MALE,White,Not Hispanic or Latino,148,1
+52,2020-09-29,2020-09-28,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,20,MALE,White,Not Hispanic or Latino,202,2
+52,2021-06-18,2021-06-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,20,MALE,White,Not Hispanic or Latino,464,3
+53,2020-08-05,2020-08-05,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,12,FEMALE,No matching concept,Not Hispanic or Latino,147,0
+53,2021-09-17,2021-09-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,12,FEMALE,No matching concept,Not Hispanic or Latino,555,1
+53,2022-05-11,2022-05-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,12,FEMALE,No matching concept,Not Hispanic or Latino,791,2
+54,2019-03-19,2019-03-19,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,18,MALE,White,Not Hispanic or Latino,-358,0
+55,2020-06-23,2020-06-22,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,35,FEMALE,Asian,null,104,0
+56,2021-03-29,2021-03-29,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,22,MALE,White,Not Hispanic or Latino,383,0
+57,2020-10-30,2020-07-08,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,40,FEMALE,White,Hispanic or Latino,233,0
+58,2020-03-20,2020-03-20,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,4,MALE,No matching concept,Not Hispanic or Latino,9,0
+59,2020-11-07,2020-11-07,null,null,No,2020-11-08,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,28,FEMALE,White,Not Hispanic or Latino,241,0
+60,2019-07-25,2019-07-25,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,null,FEMALE,White,Not Hispanic or Latino,-230,0
+61,2020-09-10,2020-09-09,null,null,No,2021-12-29,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,30,FEMALE,White,null,183,0
+62,2020-04-03,2020-04-03,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,27,FEMALE,White,Not Hispanic or Latino,23,0
+63,2021-03-12,2021-03-12,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,56,MALE,White,Not Hispanic or Latino,366,0
+64,2020-01-05,2020-01-05,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,48,FEMALE,White,Not Hispanic or Latino,-66,0
+64,2020-08-01,2020-08-01,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,48,FEMALE,White,Not Hispanic or Latino,143,1
+64,2021-06-18,2021-06-18,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,48,FEMALE,White,Not Hispanic or Latino,464,2
+65,2019-12-29,2019-12-29,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,12,FEMALE,No matching concept,Hispanic or Latino,-73,0
+66,2018-12-12,2018-12-12,2018-12-12,azithromycin 250 MG Oral Tablet [Zithromax],Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,79,FEMALE,White,Not Hispanic or Latino,-455,0
+67,2018-12-06,2018-12-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,70,FEMALE,White,Not Hispanic or Latino,-461,0
+68,2019-04-10,2019-04-10,null,null,No,2022-02-25,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,10,FEMALE,Black or African American,Not Hispanic or Latino,-336,0
+69,2021-08-11,2021-08-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,Yes,28,FEMALE,White,Not Hispanic or Latino,518,0
+70,2017-11-07,2017-11-07,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,White,Not Hispanic or Latino,-855,0
+71,2018-11-30,2018-11-30,2018-11-30,amoxicillin 80 MG/ML Oral Suspension,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,White,Not Hispanic or Latino,-467,1
+71,2019-09-14,2019-09-14,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,White,Not Hispanic or Latino,-179,2
+72,2021-09-04,2021-09-04,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,4,FEMALE,Black or African American,Not Hispanic or Latino,542,0
+73,2021-10-11,2021-10-10,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,65,FEMALE,White,Not Hispanic or Latino,579,0
+74,2020-04-10,2020-04-10,2020-04-10,moxifloxacin 5 MG/ML Ophthalmic Solution,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,Black or African American,Not Hispanic or Latino,30,0
+75,2018-12-14,2018-12-14,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,23,FEMALE,Black or African American,Not Hispanic or Latino,-453,0
+75,2019-04-27,2019-04-27,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,23,FEMALE,Black or African American,Not Hispanic or Latino,-319,1
+75,2019-12-04,2019-12-20,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,23,FEMALE,Black or African American,Not Hispanic or Latino,-98,2
+76,2020-05-11,2020-05-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,57,FEMALE,Black or African American,Not Hispanic or Latino,61,0
+77,2020-09-18,2020-09-18,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,6,FEMALE,No matching concept,Hispanic or Latino,191,0
+78,2020-01-14,2020-01-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,49,FEMALE,White,Not Hispanic or Latino,-57,0
+79,2019-07-19,2019-07-19,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,Black or African American,Not Hispanic or Latino,-236,0
+80,2020-03-26,2020-03-26,null,null,No,2022-01-10,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,White,Not Hispanic or Latino,15,0
+81,2020-10-29,2020-10-28,null,null,No,2020-10-29,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,65,FEMALE,White,Not Hispanic or Latino,232,0
+82,2019-09-30,2019-09-30,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,28,MALE,null,Not Hispanic or Latino,-163,0
+83,2020-05-22,2020-05-21,null,null,No,2021-09-15,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,FEMALE,Asian,Not Hispanic or Latino,72,0
+84,2020-06-01,2020-06-01,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,37,FEMALE,No matching concept,Hispanic or Latino,82,0
+85,2021-08-13,2021-08-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,47,FEMALE,No matching concept,Hispanic or Latino,520,0
+86,2021-03-06,2021-03-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,17,FEMALE,No matching concept,Hispanic or Latino,360,0
+87,2020-12-04,2020-12-04,null,null,No,2020-12-04,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,35,MALE,Black or African American,null,268,0
+88,2021-07-10,2021-07-09,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,FEMALE,White,Not Hispanic or Latino,486,0
+89,2020-06-26,2020-06-26,null,null,No,2020-09-24,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,19,MALE,White,Not Hispanic or Latino,107,0
+90,2020-12-07,2020-12-07,null,null,No,2020-12-08,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,37,MALE,Black or African American,Not Hispanic or Latino,271,0
+91,2022-04-06,2022-04-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,6,MALE,No matching concept,null,756,0
+92,2020-03-25,2020-03-25,2020-03-25,amoxicillin,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,22,FEMALE,No matching concept,Not Hispanic or Latino,14,0
+93,2020-09-11,2020-09-10,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,66,MALE,White,Not Hispanic or Latino,184,0
+94,2021-03-10,2021-03-10,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,16,FEMALE,Black or African American,Not Hispanic or Latino,364,0
+95,2020-09-11,2020-09-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,No matching concept,Hispanic or Latino,184,0
+95,2020-11-08,2020-11-08,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,No matching concept,Hispanic or Latino,242,1
+96,2019-02-06,2019-02-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,Yes,No,No,Yes,79,FEMALE,White,Not Hispanic or Latino,-399,0
+97,2020-04-03,2020-04-03,null,null,No,2022-02-18,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,46,MALE,White,Not Hispanic or Latino,23,0
+98,2021-05-22,2021-05-22,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,36,FEMALE,No matching concept,null,437,0
+99,2021-07-29,2021-07-29,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,1,FEMALE,White,Hispanic or Latino,505,0
+100,2020-01-13,2020-01-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,67,MALE,White,Hispanic or Latino,-58,0
+100,2021-09-10,2021-09-10,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,67,MALE,White,Hispanic or Latino,548,1
+100,2021-12-14,2021-12-14,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,67,MALE,White,Hispanic or Latino,643,2
+101,2017-12-06,2017-12-05,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,40,MALE,No matching concept,Not Hispanic or Latino,-826,0
+102,2020-12-25,2020-12-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,68,FEMALE,White,Not Hispanic or Latino,289,0
+103,2021-10-08,2021-10-08,2021-10-07,amoxicillin 500 MG Oral Capsule,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,10,FEMALE,White,Not Hispanic or Latino,576,0
+104,2022-02-22,2022-02-22,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,19,FEMALE,Asian,Not Hispanic or Latino,713,0
+105,2019-01-24,2019-01-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,Black or African American,Not Hispanic or Latino,-412,0
+105,2021-01-10,2021-01-10,2021-01-10,azithromycin,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,Black or African American,Not Hispanic or Latino,305,1
+106,2020-06-16,2020-06-16,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,41,MALE,White,Hispanic or Latino,97,0
+107,2021-11-27,2021-11-26,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,1,MALE,White,null,626,0
+107,2022-03-19,2022-03-18,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,1,MALE,White,null,738,1
+107,2018-02-20,2018-06-02,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,4,FEMALE,Black or African American,Not Hispanic or Latino,-750,0
+107,2019-10-22,2020-06-20,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,4,FEMALE,Black or African American,Not Hispanic or Latino,-141,1
+108,2019-10-16,2019-10-16,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,43,MALE,White,Not Hispanic or Latino,-147,0
+109,2020-07-07,2020-07-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,10,FEMALE,White,Not Hispanic or Latino,118,0
+110,2021-06-26,2021-06-26,null,null,No,2021-06-26,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,25,MALE,White,Not Hispanic or Latino,472,0
+111,2020-03-12,2020-03-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,18,FEMALE,White,Not Hispanic or Latino,1,0
+111,2021-02-07,2021-02-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,18,FEMALE,White,Not Hispanic or Latino,333,1
+111,2022-02-12,2022-02-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,18,FEMALE,White,Not Hispanic or Latino,703,2
+112,2021-06-11,2021-06-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,10,MALE,White,Not Hispanic or Latino,457,0
+113,2018-04-19,2018-04-19,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,Asian,Not Hispanic or Latino,-692,0
+113,2018-09-19,2018-09-19,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,Asian,Not Hispanic or Latino,-539,1
+114,2018-12-12,2018-12-12,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,Asian,Not Hispanic or Latino,-455,2
+115,2021-07-23,2021-07-23,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,9,FEMALE,White,Not Hispanic or Latino,499,0
+116,2020-03-09,2020-03-09,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,40,MALE,White,Not Hispanic or Latino,-2,0
+117,2019-07-21,2019-07-20,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,White,Not Hispanic or Latino,-234,0
+117,2019-12-16,2019-12-15,2019-12-15,amoxicillin 80 MG/ML Oral Suspension,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,White,Not Hispanic or Latino,-86,1
+117,2020-08-26,2020-08-25,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,White,Not Hispanic or Latino,168,2
+117,2020-12-31,2020-12-30,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,White,Not Hispanic or Latino,295,3
+117,2021-11-26,2021-11-25,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,White,Not Hispanic or Latino,625,4
+117,2022-03-15,2022-03-14,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,White,Not Hispanic or Latino,734,5
+118,2019-03-02,2019-03-02,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,47,MALE,White,Not Hispanic or Latino,-375,0
+118,2019-06-23,2019-06-23,2019-06-23,amoxicillin 875 MG / clavulanate 125 MG Oral Tablet,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,47,MALE,White,Not Hispanic or Latino,-262,1
+119,2021-07-26,2021-07-25,null,null,No,2021-07-26,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,MALE,White,Not Hispanic or Latino,502,0
+120,2018-06-07,2018-06-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,9,FEMALE,Black or African American,Not Hispanic or Latino,-643,0
+120,2021-01-25,2021-01-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,9,FEMALE,Black or African American,Not Hispanic or Latino,320,1
+121,2021-05-07,2021-05-07,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,25,MALE,White,Not Hispanic or Latino,422,0
+122,2021-10-08,2021-10-08,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,25,MALE,White,Not Hispanic or Latino,576,1
+123,2018-03-12,2018-03-12,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,White,Hispanic or Latino,-730,0
+123,2019-07-15,2019-07-15,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,White,Hispanic or Latino,-240,1
+123,2019-08-21,2019-08-21,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,FEMALE,White,Hispanic or Latino,-203,2
+124,2020-10-23,2020-10-23,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,21,FEMALE,Black or African American,Not Hispanic or Latino,226,0
+125,2021-02-10,2021-02-10,null,null,No,2021-07-20,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,17,MALE,Multiple race,Not Hispanic or Latino,336,0
+126,2021-10-24,2021-10-23,null,null,No,2022-04-01,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,22,FEMALE,White,Not Hispanic or Latino,592,0
+126,2021-10-24,2021-10-23,null,null,No,2021-11-18,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,22,FEMALE,White,Not Hispanic or Latino,592,1
+127,2019-03-18,2019-03-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,FEMALE,Black or African American,Not Hispanic or Latino,-359,0
+128,2018-04-08,2018-04-07,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,Other,null,-703,0
+128,2019-04-13,2019-04-12,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,Other,null,-333,1
+129,2020-02-18,2020-02-18,null,null,No,2020-02-18,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,46,MALE,Black or African American,Not Hispanic or Latino,-22,0
+130,2020-04-15,2020-04-14,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,35,0
+130,2020-11-22,2020-11-21,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,256,1
+131,2020-07-20,2020-07-19,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,22,FEMALE,White,Not Hispanic or Latino,131,0
+132,2018-11-15,2018-11-15,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,74,MALE,Asian,Not Hispanic or Latino,-482,0
+132,2020-01-25,2020-01-25,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,74,MALE,Asian,Not Hispanic or Latino,-46,1
+133,2020-10-23,2020-10-23,null,null,No,2020-10-23,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,58,MALE,White,Not Hispanic or Latino,226,0
+133,2021-03-17,2022-01-27,null,null,No,2020-11-21,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,30,FEMALE,White,Hispanic or Latino,371,0
+134,2022-05-03,2022-05-03,null,null,No,2022-05-08,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,34,FEMALE,White,Not Hispanic or Latino,783,0
+135,2022-04-05,2022-04-05,null,null,No,2021-11-26,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,47,FEMALE,White,Not Hispanic or Latino,755,0
+136,2019-05-20,2019-05-20,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,7,MALE,White,Hispanic or Latino,-296,0
+137,2021-10-06,2021-10-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,7,MALE,White,Hispanic or Latino,574,1
+138,2021-05-11,2021-05-11,2021-05-11,sulfamethoxazole 800 MG / trimethoprim 160 MG Oral Tablet,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,27,FEMALE,White,Not Hispanic or Latino,426,0
+139,2022-01-04,2022-01-04,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,22,MALE,White,Not Hispanic or Latino,664,0
+140,2020-12-13,2020-12-17,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,76,FEMALE,White,Not Hispanic or Latino,277,0
+141,2020-09-25,2020-09-25,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,33,FEMALE,White,Not Hispanic or Latino,198,0
+142,2021-12-16,2021-12-15,null,null,No,2021-06-07,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,41,FEMALE,White,null,645,0
+143,2020-10-25,2020-10-24,null,null,No,2021-07-29,Yes,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,79,FEMALE,White,Hispanic or Latino,228,0
+144,2020-03-24,2020-03-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,39,FEMALE,White,Not Hispanic or Latino,13,0
+145,2018-10-21,2018-10-21,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,62,FEMALE,White,Not Hispanic or Latino,-507,0
+146,2018-03-05,2018-03-05,2018-03-05,amoxicillin 80 MG/ML Oral Suspension,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,-737,0
+146,2018-04-29,2018-04-29,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,-682,1
+146,2018-08-02,2018-08-02,2018-08-02,polymyxin B 10000 UNT/ML / trimethoprim 1 MG/ML Ophthalmic Solution,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,-587,2
+146,2018-09-15,2018-09-15,2018-09-15,amoxicillin 80 MG/ML Oral Suspension,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,-543,3
+146,2018-12-06,2018-12-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,-461,4
+146,2019-10-06,2019-10-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,-157,5
+146,2020-01-02,2020-01-02,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,-69,6
+146,2021-03-13,2021-03-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,367,7
+146,2021-08-09,2021-08-09,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,516,8
+146,2021-10-18,2021-10-18,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,5,MALE,White,Not Hispanic or Latino,586,9
+147,2018-09-06,2018-09-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,34,FEMALE,Other,Not Hispanic or Latino,-552,0
+148,2020-07-26,2020-07-25,null,null,No,2021-08-12,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,7,MALE,White,Not Hispanic or Latino,137,0
+149,2019-04-26,2019-04-26,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,Yes,48,FEMALE,Black or African American,Not Hispanic or Latino,-320,0
+150,2019-03-24,2019-03-23,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,38,MALE,null,Hispanic or Latino,-353,0
+151,2019-06-19,2019-06-18,2019-06-18,azithromycin 250 MG Oral Tablet,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,48,MALE,White,null,-266,0
+151,2019-11-04,2019-11-03,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,48,MALE,White,null,-128,1
+152,2018-03-21,2018-03-21,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,6,MALE,No matching concept,Hispanic or Latino,-721,0
+152,2019-07-25,2019-07-25,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,6,MALE,No matching concept,Hispanic or Latino,-230,1
+152,2021-10-17,2021-10-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,6,MALE,No matching concept,Hispanic or Latino,585,2
+153,2021-04-12,2021-04-12,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,37,FEMALE,White,Not Hispanic or Latino,397,0
+154,2022-05-21,2022-05-21,2022-05-21,sulfamethoxazole 800 MG / trimethoprim 160 MG Oral Tablet [Bactrim],Yes,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,Yes,68,MALE,White,Not Hispanic or Latino,801,0
+155,2019-03-15,2019-03-15,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,52,FEMALE,White,Not Hispanic or Latino,-362,0
+156,2020-06-16,2020-06-16,null,null,No,2020-11-11,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,25,FEMALE,White,Hispanic or Latino,97,0
+157,2018-11-09,2018-11-08,null,null,No,null,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,9,MALE,White,Not Hispanic or Latino,-488,0
+158,2020-02-23,2020-02-23,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,23,FEMALE,Black or African American,Not Hispanic or Latino,-17,0
+159,2018-09-28,2018-09-28,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,62,FEMALE,White,Not Hispanic or Latino,-530,0
+160,2020-06-10,2020-06-10,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,62,FEMALE,White,Not Hispanic or Latino,91,1
+161,2019-06-22,2019-06-22,2019-06-22,amoxicillin 875 MG / clavulanate 125 MG Oral Tablet,Yes,2020-11-06,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,29,MALE,Black or African American,Not Hispanic or Latino,-263,0
+162,2019-11-11,2019-11-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,39,FEMALE,White,Not Hispanic or Latino,-121,0
+162,2020-01-17,2020-01-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,39,FEMALE,White,Not Hispanic or Latino,-54,1
+163,2021-01-18,2021-01-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,64,MALE,White,Not Hispanic or Latino,313,0
+164,2020-07-18,2020-07-18,2020-07-18,amoxicillin 80 MG/ML Oral Suspension [Amoxil],Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,MALE,White,Not Hispanic or Latino,129,0
+164,2021-02-10,2021-02-10,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,MALE,White,Not Hispanic or Latino,336,1
+165,2020-11-26,2020-11-26,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,14,MALE,White,Hispanic or Latino,260,0
+166,2020-08-07,2020-08-07,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,40,MALE,White,Not Hispanic or Latino,149,0
+167,2020-10-27,2020-10-27,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,8,MALE,White,Not Hispanic or Latino,230,0
+168,2021-02-21,2021-02-21,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,9,MALE,White,Not Hispanic or Latino,347,0
+169,2020-08-13,2020-08-13,null,null,No,2021-08-07,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,White,Not Hispanic or Latino,155,0
+170,2019-01-02,2019-01-02,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,20,FEMALE,No matching concept,Hispanic or Latino,-434,0
+170,2022-02-19,2022-02-19,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,20,FEMALE,No matching concept,Hispanic or Latino,710,1
+171,2020-06-07,2020-06-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,20,FEMALE,White,Not Hispanic or Latino,88,0
+171,2020-07-21,2020-07-20,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,20,FEMALE,White,Not Hispanic or Latino,132,1
+171,2021-07-10,2021-07-09,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,20,FEMALE,White,Not Hispanic or Latino,486,2
+172,2021-04-11,2021-04-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,39,MALE,White,Not Hispanic or Latino,396,0
+173,2019-11-30,2019-11-30,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,4,MALE,Asian,Not Hispanic or Latino,-102,0
+174,2018-09-10,2018-09-10,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,12,MALE,White,Not Hispanic or Latino,-548,0
+174,2021-05-15,2021-05-15,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,12,MALE,White,Not Hispanic or Latino,430,1
+175,2021-03-01,2021-03-01,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,57,FEMALE,White,Not Hispanic or Latino,355,0
+175,2022-02-08,2022-02-08,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,57,FEMALE,White,Not Hispanic or Latino,699,1
+176,2019-12-20,2019-11-24,null,null,No,2020-06-19,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,4,FEMALE,White,Hispanic or Latino,-82,0
+177,2019-09-28,2019-09-28,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,16,FEMALE,White,Not Hispanic or Latino,-165,0
+178,2021-08-24,2021-08-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,27,FEMALE,White,Not Hispanic or Latino,531,0
+179,2019-03-13,2019-03-13,2019-03-13,doxycycline hyclate 100 MG Oral Capsule [Vibramycin],Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,52,FEMALE,White,Not Hispanic or Latino,-364,0
+180,2018-02-12,2018-02-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,13,FEMALE,No matching concept,Hispanic or Latino,-758,0
+181,2020-03-18,2020-03-18,null,null,No,null,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,3,MALE,White,Not Hispanic or Latino,7,0
+181,2021-12-19,2021-12-19,2021-12-19,amoxicillin 80 MG/ML / clavulanate 11.4 MG/ML Oral Suspension,Yes,null,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,3,MALE,White,Not Hispanic or Latino,648,1
+182,2021-02-16,2021-02-15,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,37,FEMALE,No matching concept,Hispanic or Latino,342,0
+183,2021-07-15,2021-07-15,2021-07-15,amoxicillin 875 MG / clavulanate 125 MG Oral Tablet,Yes,2021-07-15,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,25,FEMALE,No matching concept,Not Hispanic or Latino,491,0
+184,2018-11-01,2018-11-01,null,null,No,2020-07-10,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,20,MALE,White,Not Hispanic or Latino,-496,0
+185,2020-07-17,2020-07-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,35,MALE,No matching concept,Not Hispanic or Latino,128,0
+186,2020-05-27,2020-05-27,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,43,FEMALE,White,Not Hispanic or Latino,77,0
+186,2021-01-17,2021-01-17,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,43,FEMALE,White,Not Hispanic or Latino,312,1
+187,2021-06-26,2021-06-26,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,28,MALE,Black or African American,Not Hispanic or Latino,472,0
+188,2021-11-13,2021-12-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,White,Not Hispanic or Latino,612,0
+189,2019-12-06,2019-12-06,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,49,FEMALE,White,Not Hispanic or Latino,-96,0
+190,2019-05-13,2019-05-13,2019-05-12,{3 (azithromycin 500 MG Oral Tablet) } Pack,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,61,MALE,White,Not Hispanic or Latino,-303,0
+191,2021-07-21,2021-07-21,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,49,MALE,White,Not Hispanic or Latino,497,0
+192,2019-04-09,2019-08-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,16,MALE,White,Not Hispanic or Latino,-337,0
+192,2021-04-09,2021-04-09,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,16,MALE,White,Not Hispanic or Latino,394,1
+193,2018-09-01,2018-09-01,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,72,FEMALE,White,Not Hispanic or Latino,-557,0
+194,2020-11-27,2020-11-26,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,MALE,White,Not Hispanic or Latino,261,0
+194,2021-01-15,2021-01-14,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,MALE,White,Not Hispanic or Latino,310,1
+194,2021-04-14,2021-04-13,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,MALE,White,Not Hispanic or Latino,399,2
+194,2021-05-25,2021-05-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,MALE,White,Not Hispanic or Latino,440,3
+195,2020-06-23,2020-06-22,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Yes,79,MALE,White,Not Hispanic or Latino,104,0
+196,2020-09-22,2020-09-21,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,50,MALE,White,Not Hispanic or Latino,195,0
+196,2020-11-10,2020-11-09,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,50,MALE,White,Not Hispanic or Latino,244,1
+197,2020-11-11,2020-11-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,MALE,Black or African American,Not Hispanic or Latino,245,0
+198,2022-03-10,2022-03-10,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,71,FEMALE,Unknown,null,729,0
+199,2020-04-27,2020-04-27,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,37,MALE,No matching concept,null,47,0
+200,2021-02-06,2021-02-05,null,null,No,2021-02-07,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,76,FEMALE,White,Not Hispanic or Latino,332,0
+201,2022-04-29,2022-04-29,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,0,FEMALE,White,Not Hispanic or Latino,779,0
+202,2020-01-23,2020-01-23,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,21,FEMALE,Black or African American,Not Hispanic or Latino,-48,0
+203,2019-12-24,2019-12-24,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,11,FEMALE,No matching concept,Hispanic or Latino,-78,0
+204,2021-03-22,2021-03-22,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,2,MALE,White,Not Hispanic or Latino,376,0
+205,2019-12-20,2019-12-20,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,31,MALE,No matching concept,Not Hispanic or Latino,-82,0
+206,2019-06-20,2019-06-19,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,Black or African American,null,-265,0
+206,2020-02-06,2020-02-05,2020-02-05,amoxicillin 80 MG/ML Oral Suspension,Yes,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,Black or African American,null,-34,1
+206,2020-07-01,2020-06-30,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,Black or African American,null,112,2
+206,2022-01-06,2022-01-05,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,3,FEMALE,Black or African American,null,666,3
+207,2022-02-25,2022-03-15,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,16,MALE,No matching concept,null,716,0
+208,2020-02-11,2020-02-11,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,14,MALE,White,Not Hispanic or Latino,-29,0
+209,2021-09-18,2021-09-18,null,null,No,null,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,14,FEMALE,White,Not Hispanic or Latino,556,0
