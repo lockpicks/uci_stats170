@@ -1,7 +1,7 @@
 ---
-title: "Stats170B Final Project"
-author: "Shreya Kini"
-date: "6/8/2022"
+title: "STATS 170 Final Project"
+author: "Ashmita Sawhney, Jeein Kim, Shreya Kini"
+date: "8 June 2022"
 output:
   html_document:
     df_print: paged
@@ -36,30 +36,25 @@ library(broom)
 library(ggcorrplot) 
 theme_set(theme_classic())
 
-set.seed(12345)
-
 # drop numerical columns with na's
-data2 = data %>% drop_na(Age, days_since_pandemic, prev_uri_visits, Gender, Ethnicity, covid_active) 
+data1 = data %>% drop_na(Age, days_since_pandemic, prev_uri_visits, Gender, Ethnicity, covid_active) 
 
 # modeling
 cols = c("abx_status", "Gender", "covid_status", "covid_active", "Smoking", "Pregnancy", "Chronic_Kidney_Disease", "Heart_Conditions", "Cancer", "Chronic_Liver_Disease", "Asthma", "Cystic_Fibrosis", "Dementia", "Alzheimer", "Disability", "HIV_Infection", "Overweight", "Solid_Organ", "Stroke", "Hypertension")
 
-data2[cols] = lapply(data2[cols], factor)
-data2$Age = as.numeric(data2$Age)
-data2$days_since_pandemic = as.numeric(data2$days_since_pandemic)
-data2$prev_uri_visits = as.numeric(data2$prev_uri_visits)
+data1[cols] = lapply(data1[cols], factor)
+data1$Age = as.numeric(data1$Age)
+data1$days_since_pandemic = as.numeric(data1$days_since_pandemic)
+data1$prev_uri_visits = as.numeric(data1$prev_uri_visits)
 
-sample_data = data2[sample(1:nrow(data2), 300, replace=FALSE),]
-
-model = glm(abx_status ~ Age + Gender + Ethnicity + covid_active + days_since_pandemic + prev_uri_visits, family = binomial(link = "logit"), data = sample_data)
+model = glm(abx_status ~ Age + Gender + Ethnicity + covid_active + days_since_pandemic + prev_uri_visits, family = binomial(link = "logit"), data = data1)
 probabilities <- predict(model, type = "response")
 probabilities[is.na(probabilities)] = 0
 
-predicted.classes <- ifelse(probabilities > 0.15, "pos", "neg")
-
 # only numeric predictors
-mydata = sample_data %>%
+mydata = data1 %>%
     dplyr::select_if(is.numeric)
+mydata = select(mydata, -person_id)
 predictors = colnames(mydata)
 
 mydata = na.omit(mydata)
@@ -74,7 +69,7 @@ gg = ggplot(mydata, aes(logit, predictor.value))+
     geom_smooth(method = "loess") + 
     theme_bw() + 
     facet_wrap(~predictors, scales = "free_y") +
-    theme(text = element_text(size = 20))  
+    theme(text = element_text(size = 15))  
 
 plot(gg)
 ```
@@ -82,32 +77,20 @@ plot(gg)
 
 ```{r}
 # drop numerical columns with na's
-data1 = data %>% drop_na(Age, days_since_pandemic, prev_uri_visits, Gender, Ethnicity, covid_active) #
+data2 = data %>% drop_na(Age, days_since_pandemic, prev_uri_visits, Gender, Ethnicity, covid_active)
 
-data1$abx_status = ifelse(data1$abx_status == "Yes", 1, 0)
-data1$covid_status = ifelse(data1$covid_status == "Yes", 1, 0)
-data1$covid_active = ifelse(data1$covid_active == "Yes", 1, 0)
-data1$Smoking = ifelse(data1$Smoking == "Yes", 1, 0)
-data1$Pregnancy = ifelse(data1$Pregnancy == "Yes", 1, 0)
-data1$Chronic_Kidney_Disease = ifelse(data1$Chronic_Kidney_Disease == "Yes", 1, 0)
-data1$Heart_Conditions = ifelse(data1$Heart_Conditions == "Yes", 1, 0)
-data1$Cancer = ifelse(data1$Cancer == "Yes", 1, 0)
-data1$Chronic_Liver_Disease = ifelse(data1$Chronic_Liver_Disease == "Yes", 1, 0)
-data1$Asthma = ifelse(data1$Asthma == "Yes", 1, 0)
-data1$Cystic_Fibrosis = ifelse(data1$Cystic_Fibrosis == "Yes", 1, 0)
-data1$Dementia = ifelse(data1$Dementia == "Yes", 1, 0)
-data1$Alzheimer = ifelse(data1$Alzheimer == "Yes", 1, 0)
-data1$Disability = ifelse(data1$Disability == "Yes", 1, 0)
-data1$HIV_Infection = ifelse(data1$HIV_Infection == "Yes", 1, 0)
-data1$Overweight = ifelse(data1$Overweight == "Yes", 1, 0)
-data1$Solid_Organ = ifelse(data1$Solid_Organ == "Yes", 1, 0)
-data1$Stroke = ifelse(data1$Stroke == "Yes", 1, 0)
-data1$Hypertension = ifelse(data1$Hypertension == "Yes", 1, 0)
-data1$Age = as.numeric(data1$Age)
-data1$days_since_pandemic = as.numeric(data1$days_since_pandemic)
-data1$prev_uri_visits = as.numeric(data1$prev_uri_visits)
+cols = c("abx_status", "Gender", "covid_status", "covid_active", "Smoking", "Pregnancy", "Chronic_Kidney_Disease", "Heart_Conditions", "Cancer", "Chronic_Liver_Disease", "Asthma", "Cystic_Fibrosis", "Dementia", "Alzheimer", "Disability", "HIV_Infection", "Overweight", "Solid_Organ", "Stroke", "Hypertension")
 
-corr <- round(cor(data1[, c('abx_status', 'Age', 'covid_active', 'days_since_pandemic', 'prev_uri_visits', 'Cancer', 'Chronic_Kidney_Disease', 'Chronic_Liver_Disease', 'Asthma', 'Cystic_Fibrosis', 'Dementia', 'Alzheimer', 'Disability', 'HIV_Infection',  'Overweight', 'Pregnancy', 'Smoking', 'Solid_Organ', 'Stroke', 'Heart_Conditions', 'Hypertension')]), 3)
+data2[cols] = ifelse(data2[cols] == "Yes", 1, 0)
+
+numeric_cols = c("Age", "days_since_pandemic", "prev_uri_visits")
+
+data2$Age = as.numeric(data2$Age)
+data2$days_since_pandemic = as.numeric(data2$days_since_pandemic)
+data2$prev_uri_visits = as.numeric(data2$prev_uri_visits)
+
+
+corr <- round(cor(data2[, c('abx_status', 'Age', 'covid_active', 'days_since_pandemic', 'prev_uri_visits', 'Cancer', 'Chronic_Kidney_Disease', 'Chronic_Liver_Disease', 'Asthma', 'Cystic_Fibrosis', 'Dementia', 'Alzheimer', 'Disability', 'HIV_Infection',  'Overweight', 'Pregnancy', 'Smoking', 'Solid_Organ', 'Stroke', 'Heart_Conditions', 'Hypertension')]), 3)
 print(head(corr))
 
 gg = ggcorrplot(corr, tl.cex = 8)  + theme(legend.key.size = unit(2, 'cm'))
@@ -144,6 +127,8 @@ Model 2:
 ```{r}
 # logistic regression model of antibiotic status ~ patient demographics + all comorbidities
 data <- read_csv("Sample_Data.csv")
+
+data$Age = as.numeric(data$Age)
 
 cols = c("abx_status", "Gender", "covid_status", "covid_active", "Smoking", "Pregnancy", "Chronic_Kidney_Disease", "Heart_Conditions", "Cancer", "Chronic_Liver_Disease", "Asthma", "Cystic_Fibrosis", "Dementia", "Alzheimer", "Disability", "HIV_Infection", "Overweight", "Solid_Organ", "Stroke", "Hypertension")
 data[cols] = lapply(data[cols], factor)
