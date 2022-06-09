@@ -1,6 +1,6 @@
 The directory `code` contains all codes that were used to extract the de-identified dataset from [N3C platform](https://ncats.nih.gov/n3c), plus codes used for creating visualisations and modelling purposes. 
 
-For demo usage with sample data, please refer to our [main repository](../../).
+For demo usage with sample data, please refer to our [main repository](../../../).
 
 - `URI_patients.sql`: SQL script in order to extract the required sub-cohort (URI patients) from the raw data file
 - `URI_outpatients.sql`: SQL script in order to extract the required sub-cohort from URI patients, and filter it for outpatients only
