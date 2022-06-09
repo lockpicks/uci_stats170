@@ -1,0 +1,236 @@
+---
+title: "Stats170B Final Project"
+author: "Shreya Kini"
+date: "6/8/2022"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Our sample dataset was recreated by us manually and consists of 300 rows. We duplicated all variables that were used and extracted in our actual dataset. We have reproduced all our R code with this sample data file. We have demonstarted our assumption checking, modeling process as well as visualizations. Results will not match with those specified in our report since this is a dataset of much smaller scale (300 rows vs 1.9 million rows). All other information can be found in the final report. For additional details on SQL code that was written, as well as final R code, please see readme file. 
+
+
+```{r, message = FALSE}
+#Reading in the dataset
+library(tidyverse)
+data <- read_csv("Sample_Data.csv")
+```
+
+
+```{r}
+# Using the dataset from Final_table.sql,
+# we check some of the assumptions that are needed for logistic regression:
+# 1) Independent variables linearly related to the log of odds
+# 2) No multicollinearity amongst the independent variables
+# 3) No multicollinearity amongst the independent variables 
+# 4) observations independent of each other, 
+# 5) Independent variables linearly related to the log of odds
+
+library(tidyverse)
+library(broom)
+library(ggcorrplot) 
+theme_set(theme_classic())
+
+set.seed(12345)
+
+# drop numerical columns with na's
+data2 = data %>% drop_na(Age, days_since_pandemic, prev_uri_visits, Gender, Ethnicity, covid_active) 
+
+# modeling
+cols = c("abx_status", "Gender", "covid_status", "covid_active", "Smoking", "Pregnancy", "Chronic_Kidney_Disease", "Heart_Conditions", "Cancer", "Chronic_Liver_Disease", "Asthma", "Cystic_Fibrosis", "Dementia", "Alzheimer", "Disability", "HIV_Infection", "Overweight", "Solid_Organ", "Stroke", "Hypertension")
+
+data2[cols] = lapply(data2[cols], factor)
+data2$Age = as.numeric(data2$Age)
+data2$days_since_pandemic = as.numeric(data2$days_since_pandemic)
+data2$prev_uri_visits = as.numeric(data2$prev_uri_visits)
+
+sample_data = data2[sample(1:nrow(data2), 300, replace=FALSE),]
+
+model = glm(abx_status ~ Age + Gender + Ethnicity + covid_active + days_since_pandemic + prev_uri_visits, family = binomial(link = "logit"), data = sample_data)
+probabilities <- predict(model, type = "response")
+probabilities[is.na(probabilities)] = 0
+
+predicted.classes <- ifelse(probabilities > 0.15, "pos", "neg")
+
+# only numeric predictors
+mydata = sample_data %>%
+    dplyr::select_if(is.numeric)
+predictors = colnames(mydata)
+
+mydata = na.omit(mydata)
+
+mydata = mydata %>%
+    mutate(logit = log(probabilities/(1-probabilities))) %>%
+    gather(key = "predictors", value = "predictor.value", -logit)
+
+
+gg = ggplot(mydata, aes(logit, predictor.value))+
+    geom_point(size = 0.5, alpha = 0.5) +
+    geom_smooth(method = "loess") + 
+    theme_bw() + 
+    facet_wrap(~predictors, scales = "free_y") +
+    theme(text = element_text(size = 20))  
+
+plot(gg)
+```
+
+
+```{r}
+# drop numerical columns with na's
+data1 = data %>% drop_na(Age, days_since_pandemic, prev_uri_visits, Gender, Ethnicity, covid_active) #
+
+data1$abx_status = ifelse(data1$abx_status == "Yes", 1, 0)
+data1$covid_status = ifelse(data1$covid_status == "Yes", 1, 0)
+data1$covid_active = ifelse(data1$covid_active == "Yes", 1, 0)
+data1$Smoking = ifelse(data1$Smoking == "Yes", 1, 0)
+data1$Pregnancy = ifelse(data1$Pregnancy == "Yes", 1, 0)
+data1$Chronic_Kidney_Disease = ifelse(data1$Chronic_Kidney_Disease == "Yes", 1, 0)
+data1$Heart_Conditions = ifelse(data1$Heart_Conditions == "Yes", 1, 0)
+data1$Cancer = ifelse(data1$Cancer == "Yes", 1, 0)
+data1$Chronic_Liver_Disease = ifelse(data1$Chronic_Liver_Disease == "Yes", 1, 0)
+data1$Asthma = ifelse(data1$Asthma == "Yes", 1, 0)
+data1$Cystic_Fibrosis = ifelse(data1$Cystic_Fibrosis == "Yes", 1, 0)
+data1$Dementia = ifelse(data1$Dementia == "Yes", 1, 0)
+data1$Alzheimer = ifelse(data1$Alzheimer == "Yes", 1, 0)
+data1$Disability = ifelse(data1$Disability == "Yes", 1, 0)
+data1$HIV_Infection = ifelse(data1$HIV_Infection == "Yes", 1, 0)
+data1$Overweight = ifelse(data1$Overweight == "Yes", 1, 0)
+data1$Solid_Organ = ifelse(data1$Solid_Organ == "Yes", 1, 0)
+data1$Stroke = ifelse(data1$Stroke == "Yes", 1, 0)
+data1$Hypertension = ifelse(data1$Hypertension == "Yes", 1, 0)
+data1$Age = as.numeric(data1$Age)
+data1$days_since_pandemic = as.numeric(data1$days_since_pandemic)
+data1$prev_uri_visits = as.numeric(data1$prev_uri_visits)
+
+corr <- round(cor(data1[, c('abx_status', 'Age', 'covid_active', 'days_since_pandemic', 'prev_uri_visits', 'Cancer', 'Chronic_Kidney_Disease', 'Chronic_Liver_Disease', 'Asthma', 'Cystic_Fibrosis', 'Dementia', 'Alzheimer', 'Disability', 'HIV_Infection',  'Overweight', 'Pregnancy', 'Smoking', 'Solid_Organ', 'Stroke', 'Heart_Conditions', 'Hypertension')]), 3)
+print(head(corr))
+
+gg = ggcorrplot(corr, tl.cex = 8)  + theme(legend.key.size = unit(2, 'cm'))
+
+plot(gg)
+```
+
+
+Model 1: 
+```{r}
+# logistic regression model of antibiotic status ~ patient demographics
+# columns to factorise
+cols = c("abx_status", "Gender", "covid_status", "covid_active", "Smoking", "Pregnancy", "Chronic_Kidney_Disease", "Heart_Conditions")
+data[cols] = lapply(data[cols], factor)
+data$Age = as.numeric(data$Age)
+
+# active
+model1 = glm(abx_status ~ Age + Gender + Ethnicity + covid_active, family = binomial(link = "logit"), data = data)
+summary(model1)
+
+# log likelihood CI
+a = confint(model1)
+
+model2 = glm(abx_status ~ Age + Gender + Ethnicity + covid_status, family = binomial(link = "logit"), data = data)
+
+summary(model2)
+
+# we decided to go with the variable covid_active, instead of covid_status.
+```
+
+
+
+Model 2:
+```{r}
+# logistic regression model of antibiotic status ~ patient demographics + all comorbidities
+data <- read_csv("Sample_Data.csv")
+
+cols = c("abx_status", "Gender", "covid_status", "covid_active", "Smoking", "Pregnancy", "Chronic_Kidney_Disease", "Heart_Conditions", "Cancer", "Chronic_Liver_Disease", "Asthma", "Cystic_Fibrosis", "Dementia", "Alzheimer", "Disability", "HIV_Infection", "Overweight", "Solid_Organ", "Stroke", "Hypertension")
+data[cols] = lapply(data[cols], factor)
+
+model2 = glm(abx_status ~ Age + Gender + Ethnicity + covid_active + Smoking + Pregnancy + Chronic_Kidney_Disease + Heart_Conditions + Cancer +  Chronic_Liver_Disease + Asthma +  Cystic_Fibrosis + Dementia + Disability + HIV_Infection  + Alzheimer + Stroke + Overweight + Solid_Organ + Hypertension , family = binomial(link = "logit"), data = data)
+
+summary(model2)
+
+```
+
+Model 3:
+```{r}
+# logistic regression model of antibiotic status ~ patient demographics + all comorbidities + time covariates
+data <- read_csv("Sample_Data.csv")
+
+# columns to factorise
+cols = c("abx_status", "Gender", "covid_status", "covid_active", "Smoking", "Pregnancy", "Chronic_Kidney_Disease", "Heart_Conditions", "Cancer", "Chronic_Liver_Disease", "Asthma", "Cystic_Fibrosis", "Dementia", "Alzheimer", "Disability", "HIV_Infection", "Overweight", "Solid_Organ", "Stroke", "Hypertension")
+data[cols] = lapply(data[cols], factor)
+
+data$Age = as.numeric(data$Age)
+data$days_since_pandemic = as.numeric(data$days_since_pandemic)
+data$prev_uri_visits = as.numeric(data$prev_uri_visits)
+
+   
+model3 = glm(abx_status ~ Age + Gender + Ethnicity + covid_active + days_since_pandemic + prev_uri_visits + Smoking + Pregnancy + Chronic_Kidney_Disease +          Heart_Conditions + Cancer +  Chronic_Liver_Disease + Asthma +  Cystic_Fibrosis + Dementia + Disability + HIV_Infection  + Alzheimer + Stroke + Overweight + Solid_Organ + Hypertension, family = binomial(link = "logit"), data = data)
+
+summary(model3)
+
+```
+
+Visualizations:
+
+```{r}
+# Using the dataset from Final_table.sql,
+# we create some visualizations:
+# 1) Number of URI Patients by Antibiotics Status, barplot
+# 2) Age distribution of Unique URI Patients, histogram
+# 3) Number of Unique URI Patients by Ethnicity, barplot
+# 4) Number of Antibiotics Prescription Grouped by COVID-19 Status, grouped barplot (3 variables)
+
+library(ggplot2)
+library(scales)
+
+data <- read_csv("Sample_Data.csv")
+
+gg = ggplot(data, aes(x = abx_status)) +
+        geom_bar(fill = "#b9d015", width = 0.7) +
+        labs(x = "Antibiotics Prescribed: Yes/No?", y = "Number of Patients") +
+        theme(text = element_text(size = 10)) +
+        ggtitle("URI Patients by Antibiotics Status") +
+        theme(plot.title = element_text(hjust = 0.5)) +
+        scale_y_continuous(labels = comma) + # for comma every thousands
+        geom_text(stat='count', aes(label=comma(..count..)), vjust = 2.0, size = 4, position = position_dodge2(width = 0.9, preserve = "single"))
+
+plot(gg)
+```
+
+
+
+```{r}
+data <- read_csv("Sample_Data.csv")
+data$Age <- as.numeric(data$Age)
+
+gg = ggplot(data, aes(x = Age)) +
+        geom_histogram(breaks = seq(from=0, to=79, by=5),
+            fill="chocolate2", color="white") +
+        labs(x = "Age in years", y = "Number of Patients") +
+        theme(text = element_text(size = 15)) +
+        theme(plot.title = element_text(hjust = 0.5)) +
+        ggtitle("Age Distribution of Unique URI Patients") +
+        scale_y_continuous(labels = comma) 
+
+plot(gg)
+```
+
+
+```{r}
+gg = ggplot(data, aes(x = Ethnicity)) +
+        geom_bar(fill = "#b9d015", width = 0.7) +
+        labs(x = "Ethnicity", y = "Number of Patients") +
+        theme(text = element_text(size = 13)) +
+        ggtitle("Unique URI Patients by Ethnicity") +
+        theme(plot.title = element_text(hjust = 0.5)) +
+        scale_y_continuous(labels = comma) + # for comma every thousands
+        geom_text(stat='count', aes(label=comma(..count..)), vjust = 2.0, size = 8, position = position_dodge2(width = 0.9, preserve = "single"))
+
+plot(gg)
+```
+
+
