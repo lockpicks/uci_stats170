@@ -1,25 +1,18 @@
-## STATS 170 2022: UC Irvine Capstone Project in Data Science 
+# Trends in Antibiotic Prescribing in COVID-19 & Upper Respiratory Infection Patients Over Time
 
-### Project Title: Trends in Antibiotic Prescribing in COVID-19 & Upper Respiratory Infection Patients Over Time
+### STATS 170: Capstone Project in Data Science at [UC Irvine](https://uci.edu/)
 
-### Team members: Ashmita Sawhney, Jeein Kim, Shreya Kini
+### Members: Ashmita Sawhney, Jeein Kim, Shreya Kini
 
+#### [University of California, Irvine, Donald Bren School of Information and Computer Sciences (ICS), Irvine, CA, USA.](https://www.ics.uci.edu/)
 
+---
 
-## File Descriptions: 
-1. URI_patients.sql: SQL script in order to extract the required sub-cohort (URI patients) from the raw data file
-2. URI_outpatients.sql: SQL script in order to extract the required sub-cohort from URI patients, and filter it for outpatients only
-3. Antibiotics.sql: SQL script that stores a culmination of prescription of 15 antibiotics to all URI & COVID outpatients 
-4. Comorbidity.sql: SQL script to extract and store presence of all comorbidities for each patient 
-5. Final_table.sql: SQL script that gathers final dataset used: including demographic data, comorbidity presence & antibiotic status 
-6. assumptions.r: R code for checking assumptions that are needed for logistic regression
-7. stats_model_1.r: Logistic regression model (LRM) using explanatory variables including only demographic data 
-8. stats_model_2.r: LRM using explanatory variables including demographic data and all comorbidities 
-9. stats_model_3.r: LRM using explanatory variables including demographic data and all comorbidities, plus time covariates 
-10. visualizations.r: R code containing relevant visualizations for data analysis
+### File Descriptions: 
 
+Please refer to [code](/code).
 
-## How to run our project:
+### How to run our project:
 
 Note: Since we used restricted data in our project that cannot be shared, we did not reproduce SQL code since there were >15 tables and billions of rows that were taken into account. All SQL script was run against N3C database that has strict rules on downloading data and/or duplicating tables from their database. As a result, we created a sample of the final dataset that was extracted after applying all exclusion criteria, and generated examples of the types of analyses and predictions our model can make. To run the R code:
 
@@ -31,3 +24,4 @@ Note: Since we used restricted data in our project that cannot be shared, we did
 
 
 
+Last updated: 8 June 2022.
